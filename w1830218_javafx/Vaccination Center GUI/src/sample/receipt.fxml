@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #F0E68C;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.receiptcontrol">
+   <children>
+      <Label layoutX="184.0" layoutY="14.0" prefHeight="37.0" prefWidth="254.0" text="Covid-19 Vaccination Center" textFill="#794d02">
+         <font>
+            <Font name="Candara Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="308.0" layoutY="52.0" prefHeight="37.0" prefWidth="115.0" text="Receipt issued on: ">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="datentime" layoutX="195.0" layoutY="79.0" prefHeight="27.0" prefWidth="136.0" />
+      <Label fx:id="displayfname" layoutX="198.0" layoutY="93.0" prefHeight="27.0" prefWidth="100.0">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="displaysname" layoutX="313.0" layoutY="93.0" prefHeight="27.0" prefWidth="136.0">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="displayage" layoutX="198.0" layoutY="126.0" prefHeight="27.0" prefWidth="68.0">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="displayvaccine" layoutX="343.0" layoutY="245.0" prefHeight="27.0" prefWidth="136.0">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font></Label>
+      <Label fx:id="displaycity" layoutX="198.0" layoutY="161.0" prefHeight="27.0" prefWidth="136.0">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="displayidnum" layoutX="198.0" layoutY="192.0" prefHeight="27.0" prefWidth="136.0" />
+      <Label fx:id="displaydatetime" layoutX="429.0" layoutY="56.0" prefHeight="27.0" prefWidth="129.0" />
+      <Label layoutX="61.0" layoutY="93.0" prefHeight="27.0" prefWidth="129.0" text="Name: ">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <Label layoutX="60.0" layoutY="126.0" prefHeight="27.0" prefWidth="136.0" text="Age:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <Label layoutX="59.0" layoutY="161.0" prefHeight="27.0" prefWidth="136.0" text="City:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="192.0" prefHeight="27.0" prefWidth="136.0" text="NIC/ Passport No: ">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="244.0" prefHeight="27.0" prefWidth="79.0" text="Booth No: ">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="displayboothnum" layoutX="148.0" layoutY="244.0" prefHeight="27.0" prefWidth="37.0">
+         <font>
+            <Font name="System Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="277.0" layoutY="245.0" prefHeight="27.0" prefWidth="68.0" text="Vaccine: ">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="288.0" text="Important Information" underline="true">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="307.0" text="Please keep this receipt with you always." />
+      <Label layoutX="60.0" layoutY="324.0" text="Do not share infomation from this receipt to any third parties." />
+      <Label layoutX="60.0" layoutY="341.0" text="Any vaccine does not guarantee a 100 percent immunity from the virus." />
+      <Label layoutX="60.0" layoutY="359.0" text="Please continue pracitising good hygiene and maintain social distancing at all times." />
+   </children>
+</AnchorPane>

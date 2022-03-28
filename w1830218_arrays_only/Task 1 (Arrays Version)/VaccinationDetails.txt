@@ -1,0 +1,6 @@
+Patient Names:
+Adam
+Fathima
+John
+Vaccine Stock: 147
+Number of patients served: 3
